@@ -1,0 +1,31 @@
+{
+    "name": "style-equal-height",
+    "version": "1.0.0",
+    "description": "Applies the same height to one or more groups of elements by use of a style tag (instead of using the inline style attribute)",
+    "main": "./src/main.js",
+    "scripts": {
+        "build": "npx webpack --config webpack.prod.js",
+        "dev": "npx webpack --config webpack.dev.js",
+        "dev:watch": "npx webpack --config webpack.dev.js --watch"
+    },
+    "keywords": [
+        "equal",
+        "same",
+        "height",
+        "dom",
+        "style"
+    ],
+    "author": "Pedro Serra",
+    "license": "ISC",
+    "dependencies": {
+        "debounce": "^1.2.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "webpack": "^4.28.3",
+        "webpack-cli": "^3.2.1",
+        "webpack-closure-compiler": "^2.1.6"
+    }
+}
