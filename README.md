@@ -29,5 +29,3 @@ This plugin will append a style tag to the bottom of your page with the necessar
 
 - `window.addEventListener('resize', styleEqualHeight.trigger)` will update if anytime the window is resized
 
-
-See a demo [here](http://htmlpreview.github.io/?github.com/pedroserra/style-equal-height/blob/master/demo/index.html)
