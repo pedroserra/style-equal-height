@@ -19,7 +19,7 @@
     <script src="../dist/style-equal-height.js"></script>
     <script>
         window.addEventListener('load', function() {
-            styleEqualHeight.add('.box');
+            styleEqualHeight.add('.box', 'min-width: 1024px');
         });
         window.addEventListener('resize', styleEqualHeight.trigger);
     </script>

@@ -22,10 +22,9 @@ This plugin will append a style tag to the bottom of your page with the necessar
 
     `import * as styleEqualHeight from 'same-equal-height'; `
 
-    (skip this if you added it directly to your page :) )
+    (skip this if you added it directly to your page :) );
 
 
-- `styleEqualHeight.add( ".selector" )` will make all elements matching the selector have the same height
+- `styleEqualHeight.add( ".selector" [, "media-query" ] )` will make all elements matching the selector have the same height; Optional media query can be added, allowing different rules according to the screen width, for instance;
 
-- `window.addEventListener('resize', styleEqualHeight.trigger)` will update if anytime the window is resized
-
+- `window.addEventListener('resize', styleEqualHeight.trigger)` will update if anytime the window is resized;
