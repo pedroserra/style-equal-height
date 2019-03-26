@@ -1,6 +1,6 @@
 {
     "name": "style-equal-height",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Applies the same height to one or more groups of elements by use of a style tag (instead of using the inline style attribute)",
     "main": "./src/main.js",
     "scripts": {
