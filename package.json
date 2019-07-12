@@ -22,10 +22,10 @@
     },
     "devDependencies": {
         "babel-core": "^6.26.3",
-        "babel-loader": "^7.1.5",
+        "babel-loader": "^8.0.6",
         "babel-preset-env": "^1.7.0",
-        "webpack": "^4.28.3",
-        "webpack-cli": "^3.2.1",
+        "webpack": "^4.35.3",
+        "webpack-cli": "^3.3.5",
         "webpack-closure-compiler": "^2.1.6"
     }
 }
