@@ -18,15 +18,15 @@
     "author": "Pedro Serra",
     "license": "ISC",
     "dependencies": {
-        "debounce": "^1.2.0",
-        "mdn-polyfills": "^5.18.0"
+        "debounce": "^2.0.0",
+        "mdn-polyfills": "^5.20.0"
     },
     "devDependencies": {
-        "babel-core": "^6.26.3",
-        "babel-loader": "^7.1.5",
-        "babel-preset-env": "^1.7.0",
-        "webpack": "^4.35.3",
-        "webpack-cli": "^3.3.5",
-        "webpack-closure-compiler": "^2.1.6"
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
+        "babel-loader": "^8.1.0",
+        "terser-webpack-plugin": "^5.3.10",
+        "webpack": "^5.90.3",
+        "webpack-cli": "^5.1.4"
     }
 }
